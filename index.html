@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header class="header">
+ <header class="header">
       <div class="container">
         <nav class="header-nav">
           <a href="" class="header-logo">Fatima Shakirova</a>
@@ -22,11 +22,11 @@
 
             </li>
             <li class="header-menu-item">
-              <a href="#code" class="header-menu-link">Code Example</a>
+              <a href="#contacts" class="header-menu-link">Contacts</a>
 
             </li>
             <li class="header-menu-item">
-              <a href="#portfolio" class="header-menu-link">Portfolio</a>
+              <a href="#code-example" class="header-menu-link">Code Example</a>
 
             </li>
             <li class="header-menu-item">
@@ -40,5 +40,111 @@
           </ul>
         </nav>
       </div>
+ </header>
+ <main>
+   <section class="intro">
+     <div class="container">
+       <div class="intro-inner">
+         <div class="intro-left">
+          <img class="intro-img" src="images/шакирова.jpeg" alt="Fatima"> 
+         </div>
+        
+        <div class="intro-right">
+          <h1>Fatima Shakirova</h1>
+          <h3>Student of Jyldyz Academy</h3>
+          <p>I am responsible and I want to get an education. I am very interested in programming. I want to learn other programming languages, improve my knowledge and gain experience.</p>
+        </div>
+       </div>
+
+     </div>
+   </section>
+   <section id="contacts" class="contacts">
+    <div class="container">
+      <h2 class="section-title">Contacts</h2>
+      <ul>
+        <li>
+          <h4>Location</h4>
+          <p>Jalal-Abad, Kyrgyzstan</p>
+        </li>
+        <li>
+          <h4>Phone</h4>
+          <a href="tel:+996771393989">+996 771 39 39 89</a>
+        </li>
+        <li>
+          <h4>Email</h4>
+          <a href="mailto:fatima.shakirova.kk@gmail.com">fatima.shakirova.kk@gmail.com</a>
+        </li>
+      </ul>
+    </div>
+   </section>
+   <section id="skills" class="skills section">
+     <div class="container">
+       <h2 class="section-title">Skills</h2>
+       <ul>
+         <li>HTML</li>
+         <li>CSS</li>
+         <li>Python</li>
+         <li>Git,Github</li>
+         <li>VS code</li>
+       </ul>
+     </div>
+   </section>
+   <section id="code-example" class="code-example section">
+     <div class="container">
+       <h2 class="section-title">Code Example</h2>
+       <p>
+         <b>Task:</b> Is this code executed correctly? Check and protect
+       </p>
+       <pre>
+         <code>
+          import datetime
+          def print_current_time():
+              current_time = datetime.datetime.now().time()
+              return current_time
+          print(print_current_time())
+         </code>
+       </pre>
+     </div>
+   </section>
+   <section id="languages" class="languages">
+     <div class="container">
+       <h2 class="section-title">Languages</h2>
+       <ul>
+        <li>
+            <b>English</b>
+            -Intermadient
+        </li>
+        <li>
+            <b>Russian</b>
+            -incomplete
+        </li>
+        <li>
+            <b>Kyrgyz</b>
+            -Fluent
+        </li>
+        <li>
+            <b>Uzbek</b>
+            -Native
+        </li> 
+     </ul>
+     </div>
+   </section>
+   <section id="education" class="education">
+     <div class="container">
+       <h2 class="section-title">Education</h2>
+       <ul>
+        <li>
+            <b>Osh State University</b>
+            ,Faculty of Mathematics and Information Technology,  Information Technologies  and automated systems department
+       </li>
+    </ul>
+     </div>
+   </section>
+ </main>
+ <footer>
+  <p>&copy;2022
+      <a href="https://linktr.ee/jyldyzacademy2020">Jyldyz Academy</a>
+  </p>
+</footer>
 </body>
 </html>
